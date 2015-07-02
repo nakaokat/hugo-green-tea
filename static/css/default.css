@@ -64,6 +64,10 @@ a.page_title:visited{
     padding:10px;
 }
 
+.shelf_select:hover{
+    background-color: hsl(60, 70%, 90%);
+}
+
 .date{
     color: #666;
     font-size: 12px;
