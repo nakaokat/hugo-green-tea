@@ -1,0 +1,47 @@
+body{
+    background-color: hsl(360, 0%, 96%);
+}
+
+.container{
+    background: white;
+}
+
+.header{
+    border-bottom: 1px solid #eee;
+    color: hsl(360, 0%, 100%);;
+    background-color: hsl(180, 0%, 25%);
+    height: 250px;
+}
+
+.header_left{
+    background-color: hsl(360, 0%, 40%);
+}
+
+.page_title{
+    padding-left: 10px;
+}
+
+.header_right{
+}
+
+.content_area{
+    border: 1px solid hsl(360, 0%, 90%);
+    background-color: hsl(360, 100%, 100%);
+
+}
+
+.shelf{
+    border-bottom: 1px solid hsl(360, 0%, 90%);
+    font-size: small;
+    padding:10px;
+}
+
+.date{
+    color: #666;
+    font-size: small;
+}
+
+
+.article_title{
+    font: hsl(300, 30%, 30%);
+}
