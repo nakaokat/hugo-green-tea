@@ -3,7 +3,7 @@ body{
 }
 
 .container{
-    background: white;
+    height: 100%;
 }
 
 .header{
@@ -44,4 +44,10 @@ body{
 
 .article_title{
     font: hsl(300, 30%, 30%);
+}
+
+
+.footer{
+    height:200px;
+    background-color: hsl(360, 0%, 90%);
 }
