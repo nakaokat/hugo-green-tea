@@ -1,4 +1,19 @@
-{{.Title}}
-{{ .Date }}
+{{ partial "header.html" }}
 
-{{ .Content }}
+<div class="pure-g container">
+    <div class="pure-u-2-24"></div>
+    <div class="pure-u-20-24">
+    <div class="single_header"></div>
+    <div class="content_area">
+        <div class="shelf">
+            {{ .Date }}
+            {{ .Content }}
+        </div>
+    </div>
+    <div class="footer"></div>
+    </div>
+    <div class="pure-u-2-24"></div>
+</div>
+
+
+{{ partial "footer.html" }}
