@@ -2,6 +2,18 @@ body{
     background-color: hsl(360, 0%, 96%);
 }
 
+a{
+    color: hsl(180, 20%, 10%);
+    text-decoration: none;
+
+}
+
+a:visited{
+    color: hsl(180, 50%, 40%);
+    text-decoration: none;
+}
+
+
 .container{
     height: 100%;
 }
@@ -33,13 +45,13 @@ body{
 
 .shelf{
     border-bottom: 1px solid hsl(360, 0%, 90%);
-    font-size: small;
+    font-size: 15px;
     padding:10px;
 }
 
 .date{
     color: #666;
-    font-size: small;
+    font-size: 12px;
 }
 
 
