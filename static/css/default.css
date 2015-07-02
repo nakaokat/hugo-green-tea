@@ -13,6 +13,15 @@ a:visited{
     text-decoration: none;
 }
 
+a.page_title{
+    color: hsl(180, 50%, 100%);
+    text-decoration: none;
+}
+
+a.page_title:visited{
+    color: hsl(180, 50%, 100%);
+    text-decoration: none;
+}
 
 .container{
     height: 100%;
@@ -69,6 +78,14 @@ a:visited{
 
 
 .single_header{
-    height:80px;
+    height:35px;
     background-color: hsl(180, 0%, 40%);
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.content{
+    color: hsl(210, 0%, 30%);
+    padding-left: 5%;
+    padding-right: 5%;
 }
