@@ -29,19 +29,23 @@ a.page_title:visited{
 
 .header{
     color: hsl(360, 0%, 100%);;
-    background-color: hsl(180, 0%, 25%);
+    background-color: hsl(160, 30%, 25%);
     height: 250px;
 }
 
 .header_left{
-    background-color: hsl(360, 0%, 40%);
+    background-color: hsl(160, 30%, 40%);
     height: 100%;
+    ;
+    padding-left: 10px;
 }
 
 .page_title{
     padding-top: 20px;
     padding-left: 10px;
     height: 100%;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 18px;
 }
 
 .header_right{
@@ -79,7 +83,7 @@ a.page_title:visited{
 
 .single_header{
     height:35px;
-    background-color: hsl(180, 0%, 40%);
+    background-color: hsl(160, 30%, 25%);
     padding-top: 10px;
     padding-left: 10px;
 }
