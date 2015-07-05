@@ -5,7 +5,7 @@ name = "list_cat"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
 description = ""
-homepage = "http://siteforthistheme.com/"
+homepage = "http://nakaokat.github.io"
 tags = ["", ""]
 features = ["", ""]
 min_version = 0.13
@@ -14,8 +14,3 @@ min_version = 0.13
   name = "Taiki Nakaoka"
   homepage = ""
 
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""

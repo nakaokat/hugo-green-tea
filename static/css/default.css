@@ -121,3 +121,13 @@ code {
 p{
     margin-left: 1rem;
 }
+
+.footer{
+    padding: 10px 20px;
+    color: hsl(360, 0%, 40%);
+    font-size: 13px;
+}
+
+#profile{
+
+}
