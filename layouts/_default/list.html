@@ -1,0 +1,29 @@
+{{ partial "header.html"}}
+
+<div class="container">
+    <div class="single_main">
+    <div class="single_header">
+        <a href="/" class="page_title">{{.Site.Title}}</a>
+    </div>
+    <div class="content_area">
+        <div class="shelf">
+        <h2>{{ .Title }}</h2>
+        </div>
+
+        {{ range .Data.Pages }}
+
+        <div class="shelf">
+            <div class="article_title">
+            <a  href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </div>
+            <div class="date">{{ .Date }}</div>
+        </div>
+
+        {{ end }}
+    </div>
+    <div class="footer"></div>
+    </div>
+</div>
+
+
+{{ partial "footer.html"}}
